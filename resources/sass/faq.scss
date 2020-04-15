@@ -1,0 +1,38 @@
+.card{
+    margin-top: 20px;
+}
+
+.head-faq {
+    h1 {
+    color: white;
+    }
+}
+
+.arrow_down{
+    position: relative;
+    img{
+        width: 2%;
+    }
+}
+
+
+.collapsed:active, .collapsed:focus{
+    .arrow_select{
+        -webkit-transform: rotate(180deg); /* Safari */
+        transform: rotate(180deg);
+        transition: 0.2s;
+    }
+}
+
+.collapsed{
+    .arrow_select{
+        -webkit-transform: rotate(180deg); /* Safari */
+        transform: rotate(180deg);
+        transition: 0.2s;
+    }
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+

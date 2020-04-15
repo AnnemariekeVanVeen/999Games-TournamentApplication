@@ -1,0 +1,33 @@
+#app {
+    background-color: #ffffff;
+
+    .navbar {
+        max-width: 90%;
+        margin: 0 auto;
+
+        .navbar-brand {
+            width: 10%;
+
+            img {
+                object-fit: contain;
+                width: 100%;
+            }
+        }
+
+        .nav-item {
+
+            .nav-link.active {
+                color: #206EB8;
+            }
+
+            .nav-link {
+                text-transform: uppercase;
+                color: #000000;
+            }
+
+            .nav-link:hover {
+                color: #206EB8;
+            }
+        }
+    }
+}

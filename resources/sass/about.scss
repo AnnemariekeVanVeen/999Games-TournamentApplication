@@ -1,0 +1,132 @@
+@import "variables";
+#app {
+
+    .header-about {
+        height: 70vh;
+        z-index: 999;
+        position: relative;
+
+        .bg-header-about {
+            background-image: url($prefix + "/storage/img/perkament-pattern.jpg");
+            background-repeat: repeat;
+            height: 100%;
+
+
+            .container {
+                height: 100%;
+                margin: 0 auto;
+
+                .row {
+                    margin: 0;
+
+                    .col-3 {
+                        margin: 0;
+
+                        img {
+                            object-fit: contain;
+                            width: 100%;
+                        }
+                    }
+
+                    .col-6 {
+                        text-align: center;
+                        margin: 0;
+
+                        h1 {
+                            margin-bottom: 15px;
+                        }
+
+                        h5 {
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .about-header-borderbottom {
+            height: 150px;
+            background-image: url($prefix +"/storage/img/perkament-pattern-bottom.png");
+            background-repeat: repeat-x;
+        }
+    }
+
+    .about-content {
+        height: 100vh;
+        background-image: url($prefix +"/storage/img/carcassonne-blue-pattern.jpg");
+        background-repeat: repeat;
+        background-size: 100px 100px;
+
+        .about-bottomimg {
+            background-image: url($prefix +"/storage/img/bg-uitbreiding-1-mapped.png");
+            background-size: contain;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            height: 100%;
+
+            .container {
+                height: 100%;
+
+                .row {
+                    margin: 0;
+                    height: 100%;
+
+                    .col-6 {
+
+
+                        h2 {
+                            color: #ffffff;
+                            margin-bottom: 20px;
+                        }
+
+                        p {
+                            color: #ffffff;
+                            margin-bottom: 15px;
+                        }
+
+                        img {
+                            width: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .vines-devider {
+        background-image: url($prefix + "/storage/img/begroeiing-top.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+
+    .nk-regels {
+        margin-bottom: 80px;
+
+        .about-nk {
+            margin-bottom: 40px;
+        }
+
+        .about-rules {
+
+            a {
+                h4 {
+                    margin: 20% 0;
+                    font-size: 38px;
+                    color: white;
+                }
+            }
+
+            .rules-block:first-child {
+                margin-right: 25px;
+                padding: 0;
+            }
+
+            .rules-block:last-child {
+                margin-left: 25px;
+                padding: 0;
+            }
+        }
+    }
+}

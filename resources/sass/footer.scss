@@ -1,0 +1,28 @@
+@import "variables";
+
+.bg-footer {
+    background-image: url($prefix +"/storage/img/carcassonne-blue-pattern.jpg");
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    top: 0;
+
+    .li-footer {
+        width: fit-content;
+        display: inline-block;
+
+        svg {
+            width: 70%;
+            fill: #ffffff;
+        }
+    }
+}
+
+.dashboard-footer {
+    max-width: 90%;
+    margin: 50px auto 20px auto;
+    opacity: 0.3;
+
+    .col {
+        padding: 0;
+    }
+}

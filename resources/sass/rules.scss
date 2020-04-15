@@ -1,0 +1,23 @@
+.rules-outer {
+    background-color: #ffffff;
+    padding: 50px;
+    -webkit-box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+
+    .rules-inner {
+
+        ul {
+            padding-inline-start: 10px;
+            list-style-type: none;
+
+            li {
+                margin-bottom: 25px;
+
+                p {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,170 @@
+#app {
+
+    .userdashboard {
+        max-width: 90%;
+
+        .userdashboard-inner {
+            margin-top: 80px;
+
+            /* ----------- UserDashboard ----------- */
+
+            .user-quickselect-width {
+                width: 100%;
+
+                .selection-col {
+                    height: calc(100%);
+
+                    a {
+                        text-decoration: none;
+
+                        .selection-outer {
+                            -webkit-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                            -moz-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                            box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                            transition: 0.7s;
+                            background-color: #ffffff;
+
+                            .selection-inner {
+                                padding: 50px;
+
+                                .selection-img {
+                                    margin: 0 auto 20px auto;
+                                    display: block;
+
+                                    path {
+                                        transition: 0.7s;
+                                    }
+                                }
+
+                                .selection-title {
+                                    display: block;
+                                    margin: 0 auto;
+                                    text-align: center;
+                                    font-size: 20px;
+                                    font-weight: bold;
+                                    transition: 0.7s;
+                                }
+                            }
+                        }
+
+                        .selection-outer:hover {
+                            transition: 0.7s;
+                            background-color: #206EB8;
+                            -webkit-box-shadow: 0 0 36px 0 rgba(32,110,184,0.8);
+                            -moz-box-shadow: 0 0 36px 0 rgba(32,110,184,0.8);
+                            box-shadow: 0 0 36px 0 rgba(32,110,184,0.8);
+
+                            path {
+                                fill: #ffffff;
+                                transition: 0.7s;
+                            }
+
+                            .selection-title {
+                                display: block;
+                                margin: 0 auto;
+                                text-align: center;
+                                font-size: 20px;
+                                font-weight: bold;
+                                color: #ffffff;
+                                transition: 0.7s;
+                            }
+                        }
+                    }
+
+                    a:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            /* ----------- User Settings ----------- */
+
+            .change-settings {
+                margin: 0;
+
+                .col-12 {
+                    padding: 0;
+                }
+
+                .settings {
+
+                    form {
+
+                        .change-name {
+                            margin: 30px 0;
+                        }
+
+                        .change-password {
+                            margin: 30px 0;
+
+                            .col-12 {
+                                margin-top: 25px;
+                            }
+                        }
+
+                        .row {
+                            margin: 0;
+
+                            .col-lg {
+                                padding: 0;
+
+                                input {
+                                    width: 100%;
+                                }
+                            }
+
+                            .col-lg:first-child {
+                                margin-right: 25px;
+                            }
+
+                            .col-lg:last-child {
+                                margin-left: 25px;
+                            }
+
+                            .stubborn-input {
+                                margin-left: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .settings-sign-out {
+                margin: 80px 0;
+
+                .col-12 {
+                    padding: 0;
+
+                    h2 {
+                        margin-bottom: 30px;
+                    }
+
+                    h3 {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            /* ----------- Validation page ----------- */
+
+            .verify-title{
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            .block-verify {
+                -webkit-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                -moz-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                margin: 0 15px 0 15px;
+                padding: 0;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.userdashboard-inner-height {
+    min-height: 90vh;
+    margin-top: 0!important;
+}

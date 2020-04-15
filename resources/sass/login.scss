@@ -1,0 +1,20 @@
+@import "variables";
+.login,
+.image {
+    min-height: 100vh;
+}
+
+.bg-image {
+    background-image: url($prefix + "/storage/img/casstle2.jpg");
+    background-size: cover;
+    background-position: center;
+    top: 0;
+}
+
+.password-reset-page {
+    min-height: 70vh;
+
+    .row {
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+@import "variables";
+.c2a {
+    background-image: url($prefix + "/storage/img/carcassonne-blue-pattern.jpg");
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    top: 0;
+    color: #ffffff;
+
+    .c2a-content {
+        padding: 100px 0px;
+    }
+
+    h1 {
+        color: #ffffff;
+        margin-bottom: 40px;
+    }
+}

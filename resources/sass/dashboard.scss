@@ -1,0 +1,289 @@
+#app {
+
+    .dashboard {
+        max-width: 90%;
+
+        .navbar {
+            max-width: inherit;
+            padding: 0;
+        }
+
+        .sidebar {
+            line-height: 30px;
+
+            .sidebar-position {
+                position: fixed;
+                padding: 0;
+                max-width: 11%;
+
+                .navbar-brand {
+                    height: 65px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .sidebar-inner {
+                    margin-top: 80px;
+
+                    ul {
+                        -webkit-margin-before: 0;
+                        margin-block-start: 0;
+                        list-style-type: none;
+                        padding: 0;
+
+                        li.active {
+                            a, a:hover {
+                                color: #206EB8;
+                                opacity: 1;
+                                text-decoration: none;
+                                text-shadow: 0 0 15px rgb(32, 110, 184);
+                            }
+                        }
+
+                        li {
+                            a {
+                                color: #000000;
+                                opacity: 0.5;
+                            }
+
+                            a:hover {
+                                text-decoration: none;
+                                opacity: 0.6;
+                            }
+                        }
+
+                        .functions-list {
+                            margin: 30px 0;
+
+                            .functions-title {
+                                opacity: 0.5;
+                                font-weight: 800;
+                            }
+                        }
+
+                        .settings-list {
+
+                            .settings-title {
+                                opacity: 0.5;
+                                font-weight: 800;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .col {
+            padding: 0;
+        }
+
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        h1, h2 {
+            display: block;
+        }
+
+        .dashboard-inner {
+            margin-top: 80px;
+
+            .height-inner {
+                min-height: 100vh;
+            }
+
+            /* ----------- Dashboard ----------- */
+
+            .timer-dashboard {
+                margin-bottom: 70px;
+
+                .margin{
+                    margin: 0 10px;
+                }
+
+                .timer-currenttime {
+                    font-size: 50px;
+                    color: #206EB8;
+                }
+            }
+
+            .accountoverview-dashboard {
+
+                .block-overview {
+                    -webkit-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    -moz-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    margin: 0 25px 0 25px;
+                    padding: 0;
+                    text-align: center;
+
+                    .block-content {
+                        padding: 40px 0;
+                    }
+                }
+
+                a:hover {
+                    text-decoration: none;
+                    color: initial;
+                }
+
+                a {
+                    p.overview-number {
+                        font-size: 60px;
+                    }
+
+                    p.overview-name {
+                        font-size: 25px;
+                    }
+                }
+
+                .block-overview:first-child {
+                    margin: 0 25px 0 0;
+                }
+
+                .block-overview:last-child {
+                    margin: 0 0 0 25px;
+                }
+            }
+
+            .quickadd-dashboard {
+                margin: 80px 0;
+
+                .quickadd-title {
+                    margin: 0;
+                }
+            }
+
+            .leaderboard-dashboard {
+
+                .leaderboard-inner {
+                    padding: 50px;
+                    -webkit-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    -moz-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+
+                    .table {
+                        margin: 0;
+
+                        tr:last-child {
+                            th, td {
+                                border-bottom: 1px solid #dee2e6;
+                            }
+                        }
+                    }
+
+                    .viewleaderboard-dashboard {
+                        display: block;
+                        width: 100%;
+                        text-align: right;
+                    }
+                }
+            }
+
+            /* ----------- tafelindelingen ----------- */
+
+
+
+            /* ----------- scores invoeren ----------- */
+
+            .scores-invoeren {
+
+                .scores-bg {
+                    padding: 20px !important;
+                    -webkit-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    -moz-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    margin-bottom: 20px;
+                }
+
+                .scores-bg.col-6 {
+                    padding: 0;
+                    width: 45%;
+                    display: inline-block;
+                    height: 300px;
+                    border-right: solid #195690 2px;
+                    border-left: solid #195690 2px;
+
+                    .col-4, .col-8 {
+                        padding: 0;
+                    }
+
+                    input {
+                        width: 30%;
+                    }
+                }
+            }
+
+            /* ----------- Deelnemers ----------- */
+
+            .modal-content {
+
+                form {
+
+                    input {
+                        width: 100%;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+
+            .players-inner {
+                padding: 50px;
+                -webkit-box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+                -moz-box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+                box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+
+                .table {
+                    margin: 0;
+
+                    tr:last-child {
+                        th, td {
+                            border-bottom: 1px solid #dee2e6;
+                        }
+                    }
+                }
+            }
+
+            /* ----------- Juryleden ----------- */
+
+            .judges-inner {
+                padding: 50px;
+                -webkit-box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+                -moz-box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+                box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+
+                .table {
+                    margin: 0;
+
+                    tr:last-child {
+                        th, td {
+                            border-bottom: 1px solid #dee2e6;
+                        }
+                    }
+                }
+            }
+
+            /* ----------- Privileges ----------- */
+
+            .privileges-inner {
+                padding: 50px;
+                -webkit-box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+                -moz-box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+                box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+
+                .table {
+                    margin: 0;
+
+                    tr:last-child {
+                        th, td {
+                            border-bottom: 1px solid #dee2e6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
