@@ -1,33 +1,24 @@
 # Nk Carcassonne app
-## Gemaakt voor 999 games
+## Commissioned by 999 games
 
-<p>
-    Deze app is gemaakt voor 999 games met laravel 6.x
-</p>
+# Introduction
+A tournament application for the board game Carcassonne, developed in PHP with the Laravel framework.
 
-<p>
+# Technologies
+This application was build with the Laravel framework. The frontend consists of Bootstrap and custom css
+
+# Login
     Emails <br>
-    Admin: carcassonne@999games.nl <br>
+    Admin: carcassonne@999games.nl
     Stephan: Steph1290 <br>
-</p>
 
-<p>
-    Wachtwoorden <br>
-    Admin: 20Bordspel20 <br>
-    Stephan: Steph1290 <br>
-    Factory Users: ShowcaseAcc2020 <br>
-</p>
+    Passwords
+    Admin: 20Bordspel20
+    Stephan: Steph1290
+    Factory Users: ShowcaseAcc2020
 
-<p>Prefix timer: resources/js/countdownTimer.js, line:50 <br>
-Prefix bg-images: resources/sas/_variables.scss, line:22</p><br>
-
-<p style="color: red;">
-    Vanwege een probleem met de permissions konden wij geen seeder voor de timer maken. Door: <br><br>
-    INSERT INTO `countdowns`(`id`, `seconds`) VALUES (1, 2700) <br><br>
-    te inserten in de database, werkt het dashboard.
-</p>
-
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# Contribution
+Made my Annemarieke van Veen, Mike Bulte, Menno Vreman and Jasper Agelink. ALl rights reserved.
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
