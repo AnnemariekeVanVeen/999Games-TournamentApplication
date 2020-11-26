@@ -8,9 +8,9 @@ A tournament application for the board game Carcassonne, developed in PHP with t
 This application was build with the Laravel framework. The frontend consists of Bootstrap and custom css
 
 # Login
-    Emails <br>
+    Emails
     Admin: carcassonne@999games.nl
-    Stephan: Steph1290 <br>
+    Stephan: Steph1290
 
     Passwords
     Admin: 20Bordspel20
