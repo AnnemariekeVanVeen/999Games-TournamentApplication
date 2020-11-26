@@ -1,13 +1,13 @@
 # Nk Carcassonne app
-## Commissioned by 999 games
+### Commissioned by 999 games
 
-# Introduction
+## Introduction
 A tournament application for the board game Carcassonne, developed in PHP with the Laravel framework.
 
-# Technologies
+## Technologies
 This application was build with the Laravel framework. The frontend consists of Bootstrap and custom css
 
-# Login
+## Login
     Emails
     Admin: carcassonne@999games.nl
     Stephan: Steph1290
@@ -17,7 +17,7 @@ This application was build with the Laravel framework. The frontend consists of 
     Stephan: Steph1290
     Factory Users: ShowcaseAcc2020
 
-# Contribution
+## Contribution
 Made my Annemarieke van Veen, Mike Bulte, Menno Vreman and Jasper Agelink. ALl rights reserved.
 
 <p align="center">
